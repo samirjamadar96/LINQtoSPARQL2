@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQtoSPARQL", "LINQtoSPARQL\LINQtoSPARQL.csproj", "{84DFBDFB-837E-4A0B-9C40-99EFB8B2B2BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQtoSPARQL.Tests", "LINQtoSPARQL.Tests\LINQtoSPARQL.Tests.csproj", "{9374DFA3-91AF-42B1-A4D6-1A83F11097DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FC92F0D5-9F4E-4502-BEB5-1FE7BB9022DD}"
+	ProjectSection(SolutionItems) = preProject
+		MIT-LICENSE.txt = MIT-LICENSE.txt
+		readme.txt = readme.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test via file input", "Custom Test\Test via file input.csproj", "{FA213A09-7D40-403C-A661-C1F000692BE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connect Database via DotNetRDF", "Connect Database via DotNetRDF\Connect Database via DotNetRDF.csproj", "{65E38976-C617-495C-B585-504114071192}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84DFBDFB-837E-4A0B-9C40-99EFB8B2B2BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84DFBDFB-837E-4A0B-9C40-99EFB8B2B2BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84DFBDFB-837E-4A0B-9C40-99EFB8B2B2BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84DFBDFB-837E-4A0B-9C40-99EFB8B2B2BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9374DFA3-91AF-42B1-A4D6-1A83F11097DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9374DFA3-91AF-42B1-A4D6-1A83F11097DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9374DFA3-91AF-42B1-A4D6-1A83F11097DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9374DFA3-91AF-42B1-A4D6-1A83F11097DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA213A09-7D40-403C-A661-C1F000692BE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA213A09-7D40-403C-A661-C1F000692BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA213A09-7D40-403C-A661-C1F000692BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA213A09-7D40-403C-A661-C1F000692BE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65E38976-C617-495C-B585-504114071192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65E38976-C617-495C-B585-504114071192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65E38976-C617-495C-B585-504114071192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65E38976-C617-495C-B585-504114071192}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
